@@ -181,7 +181,7 @@ TextureImporter:
         width: 61
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -189,6 +189,111 @@ TextureImporter:
       bones: []
       spriteID: a6f96286607daa349ab90c023049cce3
       internalID: 818975002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StonebaseUISheet_4
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 152
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daab022c3365c0246a7f18001d240246
+      internalID: -1046729387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StonebaseUISheet_5
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 162
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d371040ffdb3d0468367f0b4a7c5642
+      internalID: 1513244545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StonebaseUISheet_6
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 162
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df20cbb5124f4944b2ca46cccc615ef
+      internalID: -492385831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StonebaseUISheet_7
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 162
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd64ca6b74b01c4e93a4c28b9506b55
+      internalID: 1279584901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StonebaseUISheet_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 168
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4cbbf1da5d08842b7fe298026e5653
+      internalID: 159181580
       vertices: []
       indices: 
       edges: []
@@ -208,6 +313,11 @@ TextureImporter:
       StonebaseUISheet_1: -1191604578
       StonebaseUISheet_2: 1762063876
       StonebaseUISheet_3: 818975002
+      StonebaseUISheet_4: -1046729387
+      StonebaseUISheet_5: 1513244545
+      StonebaseUISheet_6: -492385831
+      StonebaseUISheet_7: 1279584901
+      StonebaseUISheet_8: 159181580
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

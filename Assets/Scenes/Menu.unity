@@ -123,6 +123,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &281779119 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5073789329115420893, guid: 705e9be3e7956c54ab1be01aee744b4c, type: 3}
+  m_PrefabInstance: {fileID: 6969796657352473453}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b98c6c8e8d41314e86ee143a2768542, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -410,7 +421,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: b7c71dfe6755e7a47897e87bf31abf60, type: 2}
+    m_Font: {fileID: 12800000, guid: 4999721f63aad4ebeb3a04c98f9d7e71, type: 2}
     m_FontSize: 0
     m_FontStyle: 0
     m_BestFit: 0
@@ -489,7 +500,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: b7c71dfe6755e7a47897e87bf31abf60, type: 2}
+    m_Font: {fileID: 12800000, guid: 4999721f63aad4ebeb3a04c98f9d7e71, type: 2}
     m_FontSize: 0
     m_FontStyle: 0
     m_BestFit: 0
@@ -544,8 +555,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -2.5699997}
-  m_SizeDelta: {x: -80, y: -13.84}
+  m_AnchoredPosition: {x: -2.0250015, y: -2.5699997}
+  m_SizeDelta: {x: -51.375, y: -13.84}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &840717120
 MonoBehaviour:
@@ -568,7 +579,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: b7c71dfe6755e7a47897e87bf31abf60, type: 2}
+    m_Font: {fileID: 12800000, guid: 4999721f63aad4ebeb3a04c98f9d7e71, type: 2}
     m_FontSize: 0
     m_FontStyle: 0
     m_BestFit: 0
@@ -602,6 +613,7 @@ GameObject:
   - component: {fileID: 965225076}
   - component: {fileID: 965225075}
   - component: {fileID: 965225078}
+  - component: {fileID: 965225079}
   m_Layer: 5
   m_Name: Play
   m_TagString: Untagged
@@ -672,7 +684,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 965225076}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 965225079}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: LoadNewScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Town
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &965225076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -726,6 +750,19 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
   m_EffectDistance: {x: 1, y: -2.15}
   m_UseGraphicAlpha: 1
+--- !u!114 &965225079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965225073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62d9888f367699b4c9fdd8ba62a0feca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loader: {fileID: 281779119}
 --- !u!1 &1104239563
 GameObject:
   m_ObjectHideFlags: 0
@@ -1194,7 +1231,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 20
+  m_SortingOrder: 19
   m_TargetDisplay: 0
 --- !u!224 &1478146098
 RectTransform:
@@ -1392,7 +1429,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 71459a31f29714f70adadc9c2cb0114c, type: 2}
+    m_Font: {fileID: 12800000, guid: 4999721f63aad4ebeb3a04c98f9d7e71, type: 2}
     m_FontSize: 0
     m_FontStyle: 0
     m_BestFit: 0
@@ -1404,7 +1441,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Plunderer
+  m_Text: Dungeons of Tarot
 --- !u!222 &1675646870
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1428,10 +1465,68 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
   m_EffectDistance: {x: 0.48, y: 0.52}
   m_UseGraphicAlpha: 1
+--- !u!1001 &6969796657352473453
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2521130911754139029, guid: 705e9be3e7956c54ab1be01aee744b4c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.2582396
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521130911754139029, guid: 705e9be3e7956c54ab1be01aee744b4c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.6164894
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521130911754139029, guid: 705e9be3e7956c54ab1be01aee744b4c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 126.382935
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521130911754139029, guid: 705e9be3e7956c54ab1be01aee744b4c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521130911754139029, guid: 705e9be3e7956c54ab1be01aee744b4c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521130911754139029, guid: 705e9be3e7956c54ab1be01aee744b4c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521130911754139029, guid: 705e9be3e7956c54ab1be01aee744b4c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521130911754139029, guid: 705e9be3e7956c54ab1be01aee744b4c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521130911754139029, guid: 705e9be3e7956c54ab1be01aee744b4c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521130911754139029, guid: 705e9be3e7956c54ab1be01aee744b4c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8078226783404639056, guid: 705e9be3e7956c54ab1be01aee744b4c, type: 3}
+      propertyPath: m_Name
+      value: LevelLoader
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 705e9be3e7956c54ab1be01aee744b4c, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 6969796657352473453}
   - {fileID: 519420032}
   - {fileID: 1397317941}
   - {fileID: 1478146098}

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f89a151439c76374d949851133bb44bf, type: 3}
+  m_Name: Priest_Card
+  m_EditorClassIdentifier: 
+  _name: Priest
+  sprite: {fileID: 21300000, guid: 58740d41699d06145b9868b867f5cc19, type: 3}
+  associatedClass: {fileID: 11400000, guid: 1b2a35545cd5f99458c79ee27a39a389, type: 2}

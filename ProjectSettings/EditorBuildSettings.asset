@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Town.unity
+    guid: 372567c2f05d87c4f9a41b45f259b4a2
+  - enabled: 1
+    path: Assets/Scenes/Cards.unity
+    guid: 7fed745feff77ca4abe83c707230f342
+  - enabled: 1
+    path: Assets/Scenes/Map.unity
+    guid: c658d60d8f0678149833e51d19108549
+  - enabled: 1
+    path: Assets/Scenes/Dungeon.unity
+    guid: 475cbbe9165ef604589550371c5ee88e
   m_configObjects: {}
