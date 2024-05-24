@@ -1,0 +1,2261 @@
+fileFormatVersion: 2
+guid: 8eaaa628136b03442babfb43943a77ff
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 376
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4490808e06f5347b7ea23fac9d3aac
+      internalID: -216646307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 376
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476f4d424808f1345bfb06c273c1223b
+      internalID: 1080575462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 376
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139e1a71288bf4c44a4ccc574afddc61
+      internalID: 1019773263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_3
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 376
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4b4e6786e459446b406ee843ca1af9
+      internalID: -366301561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_4
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 376
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957f9d39e32323d48b047bf185ba0150
+      internalID: -416155197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_5
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 0
+        width: 49
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c6f5c45021b154cbc3fb4f5b419aec
+      internalID: 532333952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_6
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 376
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94fb9faad1f25fa48a4445718b81b464
+      internalID: 1541371288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 351
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56170e9367f1041409b76bd3b25de7c9
+      internalID: -1816203244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_8
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 351
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80d440aaa0ea9840891e4d5a0334f3a
+      internalID: -1095140239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_9
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 351
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55d0fd5f47fd164a8cf5e582259921f
+      internalID: 1392369973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_10
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 351
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b689cf4b8c01449bb0727ffdf3e6e3
+      internalID: -1184813060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_11
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 351
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84776f9532826344ac9b1958021fa43
+      internalID: 1503710880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_12
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 351
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9953777f487865548aa1537181ffc46e
+      internalID: 2027960889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 326
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4840eeb2441919c40881f3c3db0961fe
+      internalID: -274082483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_14
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 326
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2ec220d8fdefe4d977039ff387a300
+      internalID: -985874314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_15
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 326
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee2030d91f152146bccb03b853769b6
+      internalID: 1609370789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_16
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 326
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a810060938c2774182cedf696a6e426
+      internalID: -1235427555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_17
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 326
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7e35c6217663947b6eba33dd25bfb7
+      internalID: 1223990011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_18
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 326
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8825970ae7cdebc4a9fa58fd620d63d1
+      internalID: 897536274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 301
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2fce93048bc6046903f8fc27a537b6
+      internalID: 292579917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_20
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 301
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41869299ac87db345a1efdeb3c5e55a6
+      internalID: 981220340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_21
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 301
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c88c21bde823e41a81572a816ec947
+      internalID: 1981394589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_22
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 301
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc48b1f1a784f547aa50ce87f1df52b
+      internalID: -1663544223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_23
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 301
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888359a583177fe45b842a5b6f235351
+      internalID: 1647475863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_24
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 301
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df70066827c9d6d4fafd855bcacc9816
+      internalID: -1897025876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 276
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf163b1485c1df4689a0440c0e73654
+      internalID: 477036028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_26
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 276
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84dde06f623c2b40b201b56f310961a
+      internalID: -1976103505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_27
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 276
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65cdf4fa443aa24986f5d6c416132ee
+      internalID: 919436728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_28
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 276
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767baf25a86afa942bfda8ba86403c99
+      internalID: 1170380523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_29
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 276
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afcfa56e9f78d8142bc5d869352085ea
+      internalID: 1350519306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_30
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 276
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79b7a8f5f015eb42b85f16db7fcfc27
+      internalID: 1663991440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_31
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 251
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14333c1acea07f4438fef2d224e8ece4
+      internalID: -1671418220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_32
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 251
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beed7fac6f0400147a477c3553326ae2
+      internalID: -367106481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_33
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 251
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3e536da1d03fa419239e22228f2159
+      internalID: -2001660675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_34
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 251
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2909a6e1784d349a218135b18c3d66
+      internalID: -373469274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_35
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 251
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d895a4ae4bf5e4e936775bed75d139
+      internalID: 2066432445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_36
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 251
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec21350fee753964f8940ff922d11643
+      internalID: -1805021079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_37
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 226
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65934bc464dffdd46bd79678226afddf
+      internalID: -789871852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_38
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 226
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fd637bf6b3ff945bf0c166afb7c8c9
+      internalID: -419693179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_39
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 226
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00bfb04fe4379004b9c628596f0db5a3
+      internalID: 1195069951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_40
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 226
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f889009ce27e54cbaa1de496dce207
+      internalID: -772512046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_41
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 226
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2094ff0be094934ab095c401ffa065a
+      internalID: -343219402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_42
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 226
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd9f6e6c2b5bf44dbb773e7068adac5
+      internalID: 649729131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_43
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 201
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b900905e16e9754aa0f28aa5bd25fdb
+      internalID: -2003353600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_44
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 201
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae197fb4452519409c208c203981421
+      internalID: 1085961467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_45
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 201
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b15e7310f326f04089f36ad6dcadfbe
+      internalID: 1290948798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_46
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 201
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae46c14dce73d244a493352f0780202
+      internalID: -1841534356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_47
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 201
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43bc627eecb23544a6d21286c07b01b
+      internalID: -28163458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_48
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 201
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4306d430f8b9e4c827af6a67c79dad
+      internalID: 670246350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_49
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 176
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a986e85ce742e104182ed7c9c1e1c822
+      internalID: 1434542725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_50
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 176
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebaa79f63e4ad284fb5bd66555c8f9e9
+      internalID: 1281350899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_51
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 176
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22b573c644db964bbf39e7d23abfe1b
+      internalID: -549097568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_52
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 176
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92d0e82de9666e4f91818fa6176ab76
+      internalID: -263770617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_53
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 176
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce05381963e13e2489c3f19ec0de85ee
+      internalID: 7533342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_54
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 176
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1036d0c2aca0e8a4b921e107b7883868
+      internalID: -217935621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_55
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 151
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db22356e58cc82e4f816ef08be7eaf05
+      internalID: -286234260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_56
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 151
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45566d786bbf3146a5fb11539b05ade
+      internalID: 985663270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_57
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 151
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2fdd9358b8db149a2ca3fac37dff8f
+      internalID: -288234352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_58
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 151
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0734d13cf81a8f4899eb4e039fc6b96
+      internalID: -2030379775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_59
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 151
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70eda0807d340fc4f963a400b757c84a
+      internalID: 1930773212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_60
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 151
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea8425366732bb4586d7ac30b03bd74
+      internalID: -1122275022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_61
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 126
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa2bd2f76be2f648b9096a9cb49664a
+      internalID: -1381524585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_62
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 126
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14aaba0dddca8a48b309463255408af
+      internalID: -1237151964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_63
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 126
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed72d3a825c9a74c9386c618acb09c5
+      internalID: 1871946621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_64
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 126
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a992285f71e964c96a17c8d08c443e
+      internalID: 2141418098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_65
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 126
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908a08021e30cde4496e3e6d85393f80
+      internalID: -79205112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_66
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 126
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d77aaac4e174d842893be82228024ae
+      internalID: 1223156748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_67
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 101
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2dd90d22ff9a2c4eb8a8dd4da14cd18
+      internalID: 561982710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_68
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 101
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ed91241a3cbcf47b9383c0a1b22834
+      internalID: -776386234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_69
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 101
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd864380657a4c41979b0627dfa630c
+      internalID: 1824143360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_70
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 101
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb3db85847d20e4e93dd4cb2c53aece
+      internalID: -495941952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_71
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 101
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea387c3e797f21146964a9e1e2a0f300
+      internalID: -442287055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_72
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 101
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a467e69095c824683660eda7aa4f6e
+      internalID: -403031161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_73
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 76
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0ceb57033c31e4eb5583473695bf39
+      internalID: 803389555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_74
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 76
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3e3d664cf7ff14ebc020ceb931caa8
+      internalID: -975767375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_75
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 76
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccbbc56812b9a6346933344ec08b3baf
+      internalID: 279682191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_76
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 76
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1414e0f09d283a046bf2a689acead21e
+      internalID: 736425920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_77
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 76
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770bb7ddacd6428468db38e5c743b110
+      internalID: -759310285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_78
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 76
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4fe82b8d46a1c43b7425b99c99d2a2
+      internalID: 1397684527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_79
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 51
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c9d4ec4591e914892acdd61477f060
+      internalID: -1519311177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_80
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 51
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75517da7f5892564c8d7faef16562594
+      internalID: 1371577065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_81
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 51
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b53f0c3fbca3e478eb3348d79dc461
+      internalID: 1011657055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_82
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 51
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4079d7f2fbb3dac47bfd92cb8e6fc90f
+      internalID: 890229296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_83
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 51
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1105bf25ab998d949afeb77f623e76c3
+      internalID: -1414713524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_84
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 51
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc21a1a620e56044194bc7865f94adfd
+      internalID: 1865224429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_85
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 26
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a430292939c07479fcdeacdb2f0c2f
+      internalID: -1845408673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_86
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 26
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422cac34bf696d346977da9733323e8d
+      internalID: -741647806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_87
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 26
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4744d7c2fcd68489afec5ee394524d
+      internalID: -16222469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_88
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 26
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df9e6a56480f7b429f190f08b921081
+      internalID: -730842039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_89
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 26
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64485bc025094094aacc26e6a76dbade
+      internalID: 577278644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_90
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 26
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27f2119d1507ee48b5090771e6ed07f
+      internalID: 1857548014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_91
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05cdb94686124c489b054dbf560aff5
+      internalID: 814125270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_92
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ffa2c2ecec3fdc498db0e30e2ec2ee8
+      internalID: 1664301353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_93
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7afad46f271b461448490fd940dc18ca
+      internalID: -2069898055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_94
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93eaa204475b1494aad3009ee272c25a
+      internalID: 1092604965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_95
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2ab7c114c32494694d48521bd55d68
+      internalID: -370717221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8bitPortraitPack24x24_96
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8299734fd1cb30d4da8a255f11089d35
+      internalID: 1477483549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      8bitPortraitPack24x24_0: -216646307
+      8bitPortraitPack24x24_1: 1080575462
+      8bitPortraitPack24x24_10: -1184813060
+      8bitPortraitPack24x24_11: 1503710880
+      8bitPortraitPack24x24_12: 2027960889
+      8bitPortraitPack24x24_13: -274082483
+      8bitPortraitPack24x24_14: -985874314
+      8bitPortraitPack24x24_15: 1609370789
+      8bitPortraitPack24x24_16: -1235427555
+      8bitPortraitPack24x24_17: 1223990011
+      8bitPortraitPack24x24_18: 897536274
+      8bitPortraitPack24x24_19: 292579917
+      8bitPortraitPack24x24_2: 1019773263
+      8bitPortraitPack24x24_20: 981220340
+      8bitPortraitPack24x24_21: 1981394589
+      8bitPortraitPack24x24_22: -1663544223
+      8bitPortraitPack24x24_23: 1647475863
+      8bitPortraitPack24x24_24: -1897025876
+      8bitPortraitPack24x24_25: 477036028
+      8bitPortraitPack24x24_26: -1976103505
+      8bitPortraitPack24x24_27: 919436728
+      8bitPortraitPack24x24_28: 1170380523
+      8bitPortraitPack24x24_29: 1350519306
+      8bitPortraitPack24x24_3: -366301561
+      8bitPortraitPack24x24_30: 1663991440
+      8bitPortraitPack24x24_31: -1671418220
+      8bitPortraitPack24x24_32: -367106481
+      8bitPortraitPack24x24_33: -2001660675
+      8bitPortraitPack24x24_34: -373469274
+      8bitPortraitPack24x24_35: 2066432445
+      8bitPortraitPack24x24_36: -1805021079
+      8bitPortraitPack24x24_37: -789871852
+      8bitPortraitPack24x24_38: -419693179
+      8bitPortraitPack24x24_39: 1195069951
+      8bitPortraitPack24x24_4: -416155197
+      8bitPortraitPack24x24_40: -772512046
+      8bitPortraitPack24x24_41: -343219402
+      8bitPortraitPack24x24_42: 649729131
+      8bitPortraitPack24x24_43: -2003353600
+      8bitPortraitPack24x24_44: 1085961467
+      8bitPortraitPack24x24_45: 1290948798
+      8bitPortraitPack24x24_46: -1841534356
+      8bitPortraitPack24x24_47: -28163458
+      8bitPortraitPack24x24_48: 670246350
+      8bitPortraitPack24x24_49: 1434542725
+      8bitPortraitPack24x24_5: 532333952
+      8bitPortraitPack24x24_50: 1281350899
+      8bitPortraitPack24x24_51: -549097568
+      8bitPortraitPack24x24_52: -263770617
+      8bitPortraitPack24x24_53: 7533342
+      8bitPortraitPack24x24_54: -217935621
+      8bitPortraitPack24x24_55: -286234260
+      8bitPortraitPack24x24_56: 985663270
+      8bitPortraitPack24x24_57: -288234352
+      8bitPortraitPack24x24_58: -2030379775
+      8bitPortraitPack24x24_59: 1930773212
+      8bitPortraitPack24x24_6: 1541371288
+      8bitPortraitPack24x24_60: -1122275022
+      8bitPortraitPack24x24_61: -1381524585
+      8bitPortraitPack24x24_62: -1237151964
+      8bitPortraitPack24x24_63: 1871946621
+      8bitPortraitPack24x24_64: 2141418098
+      8bitPortraitPack24x24_65: -79205112
+      8bitPortraitPack24x24_66: 1223156748
+      8bitPortraitPack24x24_67: 561982710
+      8bitPortraitPack24x24_68: -776386234
+      8bitPortraitPack24x24_69: 1824143360
+      8bitPortraitPack24x24_7: -1816203244
+      8bitPortraitPack24x24_70: -495941952
+      8bitPortraitPack24x24_71: -442287055
+      8bitPortraitPack24x24_72: -403031161
+      8bitPortraitPack24x24_73: 803389555
+      8bitPortraitPack24x24_74: -975767375
+      8bitPortraitPack24x24_75: 279682191
+      8bitPortraitPack24x24_76: 736425920
+      8bitPortraitPack24x24_77: -759310285
+      8bitPortraitPack24x24_78: 1397684527
+      8bitPortraitPack24x24_79: -1519311177
+      8bitPortraitPack24x24_8: -1095140239
+      8bitPortraitPack24x24_80: 1371577065
+      8bitPortraitPack24x24_81: 1011657055
+      8bitPortraitPack24x24_82: 890229296
+      8bitPortraitPack24x24_83: -1414713524
+      8bitPortraitPack24x24_84: 1865224429
+      8bitPortraitPack24x24_85: -1845408673
+      8bitPortraitPack24x24_86: -741647806
+      8bitPortraitPack24x24_87: -16222469
+      8bitPortraitPack24x24_88: -730842039
+      8bitPortraitPack24x24_89: 577278644
+      8bitPortraitPack24x24_9: 1392369973
+      8bitPortraitPack24x24_90: 1857548014
+      8bitPortraitPack24x24_91: 814125270
+      8bitPortraitPack24x24_92: 1664301353
+      8bitPortraitPack24x24_93: -2069898055
+      8bitPortraitPack24x24_94: 1092604965
+      8bitPortraitPack24x24_95: -370717221
+      8bitPortraitPack24x24_96: 1477483549
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

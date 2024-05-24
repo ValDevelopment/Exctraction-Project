@@ -286,7 +286,7 @@ TextureImporter:
         width: 15
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -294,6 +294,27 @@ TextureImporter:
       bones: []
       spriteID: 7f4cbbf1da5d08842b7fe298026e5653
       internalID: 159181580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StonebaseUISheet_9
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 165
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa43f458e5ebfbd4f82f4b59b303b4f0
+      internalID: 1896855772
       vertices: []
       indices: 
       edges: []
@@ -318,6 +339,7 @@ TextureImporter:
       StonebaseUISheet_6: -492385831
       StonebaseUISheet_7: 1279584901
       StonebaseUISheet_8: 159181580
+      StonebaseUISheet_9: 1896855772
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
