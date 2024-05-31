@@ -6,10 +6,17 @@ public class DungeonTraversal : MonoBehaviour
 {
     public GameObject[] arrows;
     public MapManager map;
-    // Start is called before the first frame update
-    void Start()
+
+    public DungeonRoom currentRoom;
+    private static DungeonTraversal _instance;
+    public static DungeonTraversal Instance { get { return _instance; } }
+
+
+    void Awake()
     {
-        
+        if (_instance != null && _instance != this) Destroy(this.gameObject);
+        else _instance = this;
+
     }
 
     // Update is called once per frame

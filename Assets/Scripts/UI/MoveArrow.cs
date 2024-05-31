@@ -9,6 +9,7 @@ public class MoveArrow : MonoBehaviour
     public GameObject moveTo;
     public MapManager map;
     public DungeonTraversal d;
+    public CombatManager c;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +27,8 @@ public class MoveArrow : MonoBehaviour
 
     public void Move()
     {
+        d.DeactivateArrows();
         map.EnterRoom(moveTo);
-        d.ActivateArrows(d.FindDirections());
+        c.OnTurnStart();
     }
 }

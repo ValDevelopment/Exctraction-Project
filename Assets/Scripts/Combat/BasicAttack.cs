@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BasicAttack : MonoBehaviour
 {
-    bool attackMode;
+    public bool attackMode;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,22 +34,26 @@ public class BasicAttack : MonoBehaviour
         CombatManager.Instance.currentActionPointsNeeded = 1;
         attackMode = true;
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        /*
         foreach(GameObject obj in enemies)
         {
             BoxCollider2D col = obj.GetComponent<BoxCollider2D>();
             col.enabled = true;
         }
+        */
     }
 
-    void ExitAttackMode()
+    public void ExitAttackMode()
     {
         CombatManager.Instance.currentActionPointsNeeded = 0;
         attackMode = false;
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        /*
         foreach (GameObject obj in enemies)
         {
             BoxCollider2D col = obj.GetComponent<BoxCollider2D>();
             col.enabled = false;
         }
+        */
     }
 }

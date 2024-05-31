@@ -15,6 +15,8 @@ public class EnemyHP : MonoBehaviour
     public SimpleFlash flash;
 
     public Text damageText;
+
+    public SpriteRenderer thisSprite;
     // Start is called before the first frame update
     void Start()
     {
@@ -46,6 +48,7 @@ public class EnemyHP : MonoBehaviour
         {
             currentHp = 0;
             Death();
+            Invoke("CheckLastEnemy", 0.28f);
         }
         hpSlider.value = currentHp;
         Invoke("Erase", 0.5f);
@@ -59,17 +62,45 @@ public class EnemyHP : MonoBehaviour
 
     void Death()
     {
+        GetComponent<BoxCollider2D>().enabled = false;
         flash.duration = 0.3f;
         flash.Flash();
-        Destroy(gameObject, 0.3f);
+        Destroy(transform.parent.gameObject, 0.3f);
+    }
+
+    void CheckLastEnemy()
+    {
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        if (enemies.Length == 1)
+        {
+            DungeonTraversal d = GameObject.Find("MoveArrows").GetComponent<DungeonTraversal>();
+            d.ActivateArrows(d.FindDirections());
+            DungeonTraversal.Instance.currentRoom.SpawnTreasures();
+        }
     }
 
     private void OnMouseOver()
     {
-        if(Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && CombatManager.Instance.basicAttack.attackMode)
         {
             int damage = Random.Range(1, maxHp);
             CombatManager.Instance.TakeAction(damage, this);
+        }
+    }
+
+    private void OnMouseEnter()
+    {
+        if (CombatManager.Instance.basicAttack.attackMode)
+        {
+            thisSprite.color = Color.grey;
+        }
+    }
+
+    private void OnMouseExit()
+    {
+        if (CombatManager.Instance.basicAttack.attackMode)
+        {
+            thisSprite.color = Color.white;
         }
     }
 }

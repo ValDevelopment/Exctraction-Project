@@ -15,7 +15,7 @@ public class CombatManager : MonoBehaviour
     public Transform divisorsParent;
     public Slider actions;
 
-    readonly int[] spacings = new int[] { 83, 83, 60, 46 };
+    readonly int[] spacings = new int[] { 97, 97, 74, 57 };
 
     private static CombatManager _instance;
     public static CombatManager Instance { get { return _instance; } }
@@ -29,6 +29,12 @@ public class CombatManager : MonoBehaviour
         actions.minValue = 0;
         actions.value = currentActionPoints;
         DisplayDivisors();
+    }
+
+    public void OnTurnStart()
+    {
+        currentActionPoints = maxActionPoints;
+        actions.value = currentActionPoints;
     }
 
     void DisplayDivisors()

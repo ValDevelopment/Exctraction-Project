@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4776110ec3de30f43b83e8122ae9cfdc, type: 3}
   m_Name: LesserMending
   m_EditorClassIdentifier: 
-  icon: {fileID: 721008216, guid: bb58d81d07232334c93f8ade942663a6, type: 3}
+  icon: {fileID: 21300000, guid: fe3116ae9fadbc847b191fff95021ff5, type: 3}

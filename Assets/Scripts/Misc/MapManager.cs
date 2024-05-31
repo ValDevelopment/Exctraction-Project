@@ -10,6 +10,10 @@ public class MapManager : MonoBehaviour
     public GameObject connectingPrefab;
     public GameObject playerLocation;
 
+    public GameObject testEnemy;
+    public GameObject testChest;
+
+    public Transform treasures;
     void Start()
     {
         // Ensure there are 25 GameObjects assigned
@@ -27,13 +31,34 @@ public class MapManager : MonoBehaviour
         int roomsToActivate = Random.Range(10, 13); // Random number between 10 and 12 (inclusive)
         int startRoom = Random.Range(0, dungeonRooms.Length); // Pick a random start room
         DFS(startRoom, roomsToActivate);
-        EnterRoom(dungeonRooms[startRoom]);
+        AssignEncounters();
         // Instantiate connections after all rooms have been activated
         InstantiateConnections();
+        EnterRoom(dungeonRooms[startRoom]);
     }
 
+    public void AssignEncounters()
+    {
+        foreach (int roomIndex in activatedRooms)
+        {
+            GameObject room = dungeonRooms[roomIndex];
+            DungeonRoom dungRoom = room.GetComponent<DungeonRoom>();
+            dungRoom.enemies.Add(testEnemy);
+            int treasures = Random.Range(0, 3);
+            for (int i = 0; i < treasures; i++)
+            {
+                dungRoom.treasures.Add(testChest);
+            }
+        }
+    }
     public void EnterRoom(GameObject room)
     {
+        foreach(Transform t in treasures)
+        {
+            t.gameObject.SetActive(false);
+            ChestBehaviour thisChest = t.GetComponent<ChestBehaviour>();
+            thisChest.CloseChest();
+        }
         foreach(GameObject obj in dungeonRooms)
         {
             obj.GetComponent<MapIcon>().current = false;
@@ -42,6 +67,8 @@ public class MapManager : MonoBehaviour
         }
         Instantiate(playerLocation, room.transform);
         room.GetComponent<MapIcon>().current = true;
+        room.GetComponent<DungeonRoom>().StartThisEncounter();
+        DungeonTraversal.Instance.currentRoom = room.GetComponent<DungeonRoom>();
     }
 
     void DFS(int currentRoom, int roomsToActivate)

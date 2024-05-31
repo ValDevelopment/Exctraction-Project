@@ -6,6 +6,7 @@ TagManager:
   tags:
   - SkillButton
   - Enemy
+  - EnemyPosition
   layers:
   - Default
   - TransparentFX
