@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+using UnityEngine.UI;
+
 public class Inventory : MonoBehaviour
 {
     public Transform itemsGrid;
@@ -9,6 +11,8 @@ public class Inventory : MonoBehaviour
     public static List<List<object>> inventory = new List<List<object>>();
 
     public GameObject thisUI;
+
+    public ItemsDataHolder itemData;
 
     public void Update()
     {
@@ -22,12 +26,16 @@ public class Inventory : MonoBehaviour
     public static void AddItem(Item item, int amount)
     {
         List<object> newItem = new List<object> { item.id, item.sellingPrice, item.rarity, amount};
-        foreach (List<object> obj in inventory)
+
+        if (item.stackable)
         {
-            if (obj[0].Equals(item.id))
+            foreach (List<object> obj in inventory)
             {
-                obj[3] = (int)obj[1] + amount;
-                return;
+                if (obj[0].Equals(item.id))
+                {
+                    obj[3] = (int)obj[1] + amount;
+                    return;
+                }
             }
         }
 
@@ -53,7 +61,16 @@ public class Inventory : MonoBehaviour
         {
             if(inventory[i] != null)
             {
+                Image image = itemsGrid.GetChild(i).GetComponent<Image>();
                 itemsGrid.GetChild(i).gameObject.SetActive(true);
+                if (inventory[i].Count > 4)
+                {
+                    image.sprite = itemData.GetEquipment((int)inventory[i][1], (string)inventory[i][0]).sprite;
+                }
+                else
+                {
+                    image.sprite = itemData.GetItem((string)inventory[i][0], (int)inventory[i][2]).icon;
+                }
             }
         }
     }

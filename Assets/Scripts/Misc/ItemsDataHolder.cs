@@ -56,4 +56,18 @@ public class ItemsDataHolder : MonoBehaviour
         }
         return null;
     }
+
+    public Item GetItem(string name, int rarity)
+    {
+        List<List<Item>> items = new() { uncommon, rare, epic, legendary, unique };
+        List<Item> thisSLot = items[rarity];
+        foreach(Item item in thisSLot)
+        {
+            if(item.id.Equals(name))
+            {
+                return item;
+            }
+        }
+        return null;
+    }
 }

@@ -10,4 +10,5 @@ public class Item : ScriptableObject
     public int sellingPrice;
     public int purchasePrice;
     public int rarity;
+    public bool stackable;
 }

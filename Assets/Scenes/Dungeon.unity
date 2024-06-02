@@ -1778,6 +1778,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemsGrid: {fileID: 1204049118}
   thisUI: {fileID: 1578260018}
+  itemData: {fileID: 1046383664}
 --- !u!1 &127224134
 GameObject:
   m_ObjectHideFlags: 0
