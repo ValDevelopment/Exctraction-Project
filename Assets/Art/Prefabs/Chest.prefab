@@ -1246,6 +1246,13 @@ MonoBehaviour:
   thisChest: {fileID: 0}
   innateStats: 
   generatedStats: 
+  isInventory: 0
+  inventoryEquipDesc: {fileID: 0}
+  inventoryDescPosition: {fileID: 0}
+  equipId: 
+  slot: 0
+  inventoryIndex: 0
+  isEquipped: 0
 --- !u!1 &459555054277907240
 GameObject:
   m_ObjectHideFlags: 0
@@ -1470,6 +1477,13 @@ MonoBehaviour:
   thisChest: {fileID: 0}
   innateStats: 
   generatedStats: 
+  isInventory: 0
+  inventoryEquipDesc: {fileID: 0}
+  inventoryDescPosition: {fileID: 0}
+  equipId: 
+  slot: 0
+  inventoryIndex: 0
+  isEquipped: 0
 --- !u!1 &515905514186669188
 GameObject:
   m_ObjectHideFlags: 0
@@ -1989,6 +2003,13 @@ MonoBehaviour:
   thisChest: {fileID: 0}
   innateStats: 
   generatedStats: 
+  isInventory: 0
+  inventoryEquipDesc: {fileID: 0}
+  inventoryDescPosition: {fileID: 0}
+  equipId: 
+  slot: 0
+  inventoryIndex: 0
+  isEquipped: 0
 --- !u!1 &749120589875089183
 GameObject:
   m_ObjectHideFlags: 0
@@ -4843,7 +4864,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1712936537408538418}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
   m_Name: 
@@ -6922,6 +6943,13 @@ MonoBehaviour:
   thisChest: {fileID: 0}
   innateStats: 
   generatedStats: 
+  isInventory: 0
+  inventoryEquipDesc: {fileID: 0}
+  inventoryDescPosition: {fileID: 0}
+  equipId: 
+  slot: 0
+  inventoryIndex: 0
+  isEquipped: 0
 --- !u!1 &2348697276796966583
 GameObject:
   m_ObjectHideFlags: 0
@@ -9007,6 +9035,13 @@ MonoBehaviour:
   thisChest: {fileID: 0}
   innateStats: 
   generatedStats: 
+  isInventory: 0
+  inventoryEquipDesc: {fileID: 0}
+  inventoryDescPosition: {fileID: 0}
+  equipId: 
+  slot: 0
+  inventoryIndex: 0
+  isEquipped: 0
 --- !u!1 &2980987300310586067
 GameObject:
   m_ObjectHideFlags: 0
@@ -12306,6 +12341,13 @@ MonoBehaviour:
   thisChest: {fileID: 0}
   innateStats: 
   generatedStats: 
+  isInventory: 0
+  inventoryEquipDesc: {fileID: 0}
+  inventoryDescPosition: {fileID: 0}
+  equipId: 
+  slot: 0
+  inventoryIndex: 0
+  isEquipped: 0
 --- !u!1 &3818802339531648625
 GameObject:
   m_ObjectHideFlags: 0
@@ -12706,6 +12748,13 @@ MonoBehaviour:
   thisChest: {fileID: 0}
   innateStats: 
   generatedStats: 
+  isInventory: 0
+  inventoryEquipDesc: {fileID: 0}
+  inventoryDescPosition: {fileID: 0}
+  equipId: 
+  slot: 0
+  inventoryIndex: 0
+  isEquipped: 0
 --- !u!1 &3894974668935440372
 GameObject:
   m_ObjectHideFlags: 0
@@ -14237,6 +14286,13 @@ MonoBehaviour:
   thisChest: {fileID: 0}
   innateStats: 
   generatedStats: 
+  isInventory: 0
+  inventoryEquipDesc: {fileID: 0}
+  inventoryDescPosition: {fileID: 0}
+  equipId: 
+  slot: 0
+  inventoryIndex: 0
+  isEquipped: 0
 --- !u!1 &4446735509392997760
 GameObject:
   m_ObjectHideFlags: 0
@@ -15254,6 +15310,13 @@ MonoBehaviour:
   thisChest: {fileID: 0}
   innateStats: 
   generatedStats: 
+  isInventory: 0
+  inventoryEquipDesc: {fileID: 0}
+  inventoryDescPosition: {fileID: 0}
+  equipId: 
+  slot: 0
+  inventoryIndex: 0
+  isEquipped: 0
 --- !u!1 &4848261156304650301
 GameObject:
   m_ObjectHideFlags: 0
@@ -16613,6 +16676,13 @@ MonoBehaviour:
   thisChest: {fileID: 0}
   innateStats: 
   generatedStats: 
+  isInventory: 0
+  inventoryEquipDesc: {fileID: 0}
+  inventoryDescPosition: {fileID: 0}
+  equipId: 
+  slot: 0
+  inventoryIndex: 0
+  isEquipped: 0
 --- !u!1 &5310714643936475576
 GameObject:
   m_ObjectHideFlags: 0
@@ -19543,6 +19613,13 @@ MonoBehaviour:
   thisChest: {fileID: 0}
   innateStats: 
   generatedStats: 
+  isInventory: 0
+  inventoryEquipDesc: {fileID: 0}
+  inventoryDescPosition: {fileID: 0}
+  equipId: 
+  slot: 0
+  inventoryIndex: 0
+  isEquipped: 0
 --- !u!1 &6210323174202226439
 GameObject:
   m_ObjectHideFlags: 0
@@ -20070,6 +20147,13 @@ MonoBehaviour:
   thisChest: {fileID: 0}
   innateStats: 
   generatedStats: 
+  isInventory: 0
+  inventoryEquipDesc: {fileID: 0}
+  inventoryDescPosition: {fileID: 0}
+  equipId: 
+  slot: 0
+  inventoryIndex: 0
+  isEquipped: 0
 --- !u!1 &6367358279361740205
 GameObject:
   m_ObjectHideFlags: 0
@@ -20294,6 +20378,13 @@ MonoBehaviour:
   thisChest: {fileID: 0}
   innateStats: 
   generatedStats: 
+  isInventory: 0
+  inventoryEquipDesc: {fileID: 0}
+  inventoryDescPosition: {fileID: 0}
+  equipId: 
+  slot: 0
+  inventoryIndex: 0
+  isEquipped: 0
 --- !u!1 &6413821629580584864
 GameObject:
   m_ObjectHideFlags: 0
@@ -22377,6 +22468,13 @@ MonoBehaviour:
   thisChest: {fileID: 0}
   innateStats: 
   generatedStats: 
+  isInventory: 0
+  inventoryEquipDesc: {fileID: 0}
+  inventoryDescPosition: {fileID: 0}
+  equipId: 
+  slot: 0
+  inventoryIndex: 0
+  isEquipped: 0
 --- !u!1 &7226694231958915796
 GameObject:
   m_ObjectHideFlags: 0
@@ -23136,6 +23234,13 @@ MonoBehaviour:
   thisChest: {fileID: 0}
   innateStats: 
   generatedStats: 
+  isInventory: 0
+  inventoryEquipDesc: {fileID: 0}
+  inventoryDescPosition: {fileID: 0}
+  equipId: 
+  slot: 0
+  inventoryIndex: 0
+  isEquipped: 0
 --- !u!1 &7548542985954913234
 GameObject:
   m_ObjectHideFlags: 0
@@ -24769,7 +24874,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 12
-  m_Sprite: {fileID: 21300000, guid: 50a33b56edb585545b6d4fdfc416a217, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e7cdeb860b30c7841826718b5f02cbf7, type: 3}
   m_Color: {r: 0.8207547, g: 0.8207547, b: 0.8207547, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -24792,7 +24897,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea11bd29002d1aa478607ae82733d162, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chestRarity: 1
+  chestRarity: 0
   items: []
   thisSprite: {fileID: 4223718085759138474}
   grid: {fileID: 1170830598478506037}

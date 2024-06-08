@@ -21,6 +21,7 @@ public class ItemsDataHolder : MonoBehaviour
     public List<EquipmentBase> gloves;
     public List<EquipmentBase> necks;
     public List<EquipmentBase> rings;
+    public List<EquipmentBase> trinkets;
     public List<EquipmentBase> mainHand;
     public List<EquipmentBase> offHand;
 
@@ -40,13 +41,13 @@ public class ItemsDataHolder : MonoBehaviour
 
     public List<EquipmentBase> GetBase(int slot)
     {
-        List<List<EquipmentBase>> allBases = new() {helmets, chests, pants, feet,gloves,necks,rings,mainHand,offHand};
+        List<List<EquipmentBase>> allBases = new() {helmets, chests, pants, feet,gloves,necks,rings, trinkets, mainHand,offHand};
         return allBases[slot];
     }
 
     public EquipmentBase GetEquipment(int slot, string name)
     {
-        List<List<EquipmentBase>> allBases = new() { helmets, chests, pants, feet, gloves, necks, rings, mainHand, offHand };
+        List<List<EquipmentBase>> allBases = new() { helmets, chests, pants, feet, gloves, necks, rings, trinkets, mainHand, offHand };
         foreach(EquipmentBase b in allBases[slot])
         {
             if (b.baseName.Equals(name))

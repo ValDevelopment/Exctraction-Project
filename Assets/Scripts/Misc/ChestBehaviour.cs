@@ -64,7 +64,7 @@ public class ChestBehaviour : MonoBehaviour
 
     Equipment GenerateEquipment()
     {
-        int slot = Random.Range(0, 9);
+        int slot = Random.Range(0, 10);
         List<EquipmentBase> bases = ItemsDataHolder.Instance.GetBase(slot);
         int baseId = 0;
         string id = bases[baseId].baseName;
@@ -140,6 +140,8 @@ public class ChestBehaviour : MonoBehaviour
                     icon.isEquipment = true;
                     icon.rarity = equipment[i].rarity;
                     icon.equip = equipment[i];
+                    icon.innateStats = equipment[i].innateStats;
+                    icon.generatedStats = equipment[i].generatedStats;
                     icon.thisChest = this;
                     icon.AssignDescriptionImages();
                     icon.equipBase = thisBase;

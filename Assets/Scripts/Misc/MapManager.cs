@@ -44,7 +44,7 @@ public class MapManager : MonoBehaviour
             GameObject room = dungeonRooms[roomIndex];
             DungeonRoom dungRoom = room.GetComponent<DungeonRoom>();
             dungRoom.enemies.Add(testEnemy);
-            int treasures = Random.Range(0, 3);
+            int treasures = Random.Range(1, 3);
             for (int i = 0; i < treasures; i++)
             {
                 dungRoom.treasures.Add(testChest);
@@ -53,6 +53,7 @@ public class MapManager : MonoBehaviour
     }
     public void EnterRoom(GameObject room)
     {
+        CombatManager.Instance.basicAttack.ExitAttackMode();
         foreach(Transform t in treasures)
         {
             t.gameObject.SetActive(false);
