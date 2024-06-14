@@ -868,6 +868,7 @@ MonoBehaviour:
   flash: {fileID: 3295276571824342844}
   damageText: {fileID: 2638539536829460147}
   thisSprite: {fileID: 3029533927291238457}
+  lootObject: {fileID: 8101682742099926695, guid: b99664cd8dde31543899538e6937c4a1, type: 3}
 --- !u!114 &363636217453722329
 MonoBehaviour:
   m_ObjectHideFlags: 0

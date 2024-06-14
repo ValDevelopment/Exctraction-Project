@@ -7,6 +7,7 @@ TagManager:
   - SkillButton
   - Enemy
   - EnemyPosition
+  - Loot_Enemy
   layers:
   - Default
   - TransparentFX

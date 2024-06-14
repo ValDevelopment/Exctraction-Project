@@ -6,7 +6,10 @@ public static class PlayerStats
 {
     public static int maxSkills = 4;
     public static int maxHealth = 25;
+    public static int maxEnergy = 100;
     public static List<object> currentGear = new List<object>(new object[10]);
+
+    public static List<int> currentStats = new List<int>(new int[15]);
 
 
 

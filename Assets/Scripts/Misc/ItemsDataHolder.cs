@@ -37,6 +37,8 @@ public class ItemsDataHolder : MonoBehaviour
     {
         if (_instance != null && _instance != this) Destroy(this.gameObject);
         else _instance = this;
+
+
     }
 
     public List<EquipmentBase> GetBase(int slot)

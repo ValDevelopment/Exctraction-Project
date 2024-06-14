@@ -17,6 +17,8 @@ public class EnemyHP : MonoBehaviour
     public Text damageText;
 
     public SpriteRenderer thisSprite;
+
+    public GameObject lootObject;
     // Start is called before the first frame update
     void Start()
     {
@@ -49,6 +51,7 @@ public class EnemyHP : MonoBehaviour
             currentHp = 0;
             Death();
             Invoke("CheckLastEnemy", 0.28f);
+            Invoke("DropLoot", 0.29f);
         }
         hpSlider.value = currentHp;
         Invoke("Erase", 0.5f);
@@ -66,6 +69,21 @@ public class EnemyHP : MonoBehaviour
         flash.duration = 0.3f;
         flash.Flash();
         Destroy(transform.parent.gameObject, 0.3f);
+    }
+
+    void DropLoot()
+    {
+        MapManager map = GameObject.Find("Map").GetComponent<MapManager>();
+        GameObject room = map.dungeonRooms[0];
+        foreach (GameObject t in map.dungeonRooms)
+        {
+            if (t.GetComponent<MapIcon>().current)
+            {
+                room = t;
+                break;
+            }
+        }
+        GameObject obj = Instantiate(lootObject, new Vector2(transform.position.x, transform.position.y - 2f), Quaternion.identity, GameObject.Find("NonEnemyObjects").transform);
     }
 
     void CheckLastEnemy()

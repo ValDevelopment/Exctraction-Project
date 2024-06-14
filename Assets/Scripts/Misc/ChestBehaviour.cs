@@ -78,11 +78,11 @@ public class ChestBehaviour : MonoBehaviour
         {
             rarity = 1;
         }
-        else if (chance >= 0.925f && chance < 0.975f)
+        else if (chance >= 0.925f && chance < 0.985f)
         {
             rarity = 2;
         }
-        else if (chance >= 0.975f && chance < 0.995f)
+        else if (chance >= 0.985f && chance < 0.995f)
         {
             rarity = 3;
         }

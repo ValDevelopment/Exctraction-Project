@@ -35,11 +35,15 @@ public class ItemIconBehaviour : MonoBehaviour, IPointerEnterHandler, IPointerEx
     // Start is called before the first frame update
     void Awake()
     {
-        if (!isInventory)
+        thisButton = GetComponent<Button>();
+        if (!isInventory && !isEquipped)
         {
             AssignDescriptionImages();
-            thisButton = GetComponent<Button>();
             thisButton.onClick.AddListener(Loot);
+        } 
+        if(isEquipped)
+        {
+            thisButton.onClick.AddListener(Unequip);
         }
     }
 
@@ -54,7 +58,7 @@ public class ItemIconBehaviour : MonoBehaviour, IPointerEnterHandler, IPointerEx
 
     public void OnPointerEnter(PointerEventData pointerEventData)
     {
-        if (!isInventory)
+        if (!isInventory && !isEquipped)
         {
             if (isEquipment)
             {
@@ -80,7 +84,7 @@ public class ItemIconBehaviour : MonoBehaviour, IPointerEnterHandler, IPointerEx
                 thisItemDesc.GetChild(0).GetChild(1).gameObject.GetComponent<Text>().text = item.name;
             }
         }
-        else
+        else if(isInventory || isEquipped)
         {
             if (isEquipment)
             {
@@ -104,7 +108,7 @@ public class ItemIconBehaviour : MonoBehaviour, IPointerEnterHandler, IPointerEx
 
     public void OnPointerExit(PointerEventData pointerEventData)
     {
-        if (!isInventory)
+        if (!isInventory && !isEquipped)
         {
             thisEquipDesc.gameObject.SetActive(false);
             thisItemDesc.gameObject.SetActive(false);
@@ -146,17 +150,48 @@ public class ItemIconBehaviour : MonoBehaviour, IPointerEnterHandler, IPointerEx
         {
             PlayerStats.AddEquipmentItem(equipId, slot, rarity, innateStats, generatedStats);
             Inventory.inventory[inventoryIndex] = null;
-            GearUIManager.Instance.AssignEquippedGear();
             inventoryEquipDesc.SetActive(false);
             gameObject.SetActive(false);
+            if(slot == 8)
+            {
+                CombatManager.Instance.basicAttack.SetAttackIcon(ItemsDataHolder.Instance.GetEquipment(slot, equipId).sprite);
+            }
+            for(int i = 0; i < 15; i++)
+            {
+                PlayerStats.currentStats[i] += innateStats[i] + generatedStats[i];
+            }
+            GearUIManager.Instance.AssignEquippedGear();
         }
+    }
+
+    private void OnDisable()
+    {
+        if(isEquipped || isInventory)
+            inventoryEquipDesc.SetActive(false);
     }
 
     public void Unequip()
     {
         if (isEquipped)
         {
-            
+            if(!Inventory.IsInventoryFull())
+            {
+
+                PlayerStats.currentGear[slot] = null;
+
+                Debug.Log(PlayerStats.currentGear[slot]);
+
+                Inventory.AddEquipmentItem(equipId, slot, rarity, innateStats, generatedStats);
+
+                for (int i = 0; i < 15; i++)
+                {
+                    PlayerStats.currentStats[i] -= innateStats[i] + generatedStats[i];
+                }
+
+                FindObjectOfType<Inventory>().OnInventoryOpen();
+
+                GearUIManager.Instance.AssignEquippedGear();
+            }
         }
     }
 }

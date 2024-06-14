@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BasicAttack : MonoBehaviour
 {
     public bool attackMode;
     public GameObject activeIndic;
     public GameObject dark;
+
+    public Sprite defaultSprite;
     // Start is called before the first frame update
     void Start()
     {
@@ -35,6 +38,16 @@ public class BasicAttack : MonoBehaviour
                 EnterAttackMode();
             }
         }
+    }
+
+    public void SetDefaultAttackIcon()
+    {
+        GetComponent<Image>().sprite = defaultSprite;
+    }
+
+    public void SetAttackIcon(Sprite sprite)
+    {
+        GetComponent<Image>().sprite = sprite;
     }
 
     void EnterAttackMode()

@@ -14,6 +14,7 @@ public class CombatManager : MonoBehaviour
     public GridLayoutGroup divisors;
     public Transform divisorsParent;
     public Slider actions;
+    public DungeonTimeManager energyManager;
 
     readonly int[] spacings = new int[] { 97, 97, 74, 57 };
 
@@ -58,6 +59,7 @@ public class CombatManager : MonoBehaviour
 
             currentActionPoints -= currentActionPointsNeeded;
             actions.value = currentActionPoints;
+            energyManager.ReduceEnergy(currentActionPointsNeeded);
         }
     }
 }

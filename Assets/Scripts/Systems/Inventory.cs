@@ -77,8 +77,8 @@ public class Inventory : MonoBehaviour
 
     public static void AddEquipmentItem(string id, int slot, int rarity, List<int> innateStats, List<int> generatedStats)
     {
-        List<int> totalStats = new();
-        for(int i = 0; i < 15; i++)
+        List<int> totalStats = new List<int>(new int[15]);
+        for (int i = 0; i < 15; i++)
         {
             totalStats[i] = innateStats[i] + generatedStats[i];
         }

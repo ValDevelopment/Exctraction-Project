@@ -27,6 +27,7 @@ public class MoveArrow : MonoBehaviour
 
     public void Move()
     {
+        d.AddLootBags();
         d.DeactivateArrows();
         map.EnterRoom(moveTo);
         c.OnTurnStart();

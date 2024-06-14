@@ -44,6 +44,15 @@ public class DungeonTraversal : MonoBehaviour
         }
     }
 
+    public void AddLootBags()
+    {
+        GameObject[] loot = GameObject.FindGameObjectsWithTag("Loot_Enemy");
+        foreach(GameObject obj in loot)
+        {
+            currentRoom.currentTresures.Add(obj);
+        }
+    }
+
     public List<int> FindDirections()
     {
         GameObject room = map.dungeonRooms[0];
